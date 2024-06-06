@@ -1,24 +1,99 @@
+*{
+    text-decoration: none;
+}
+
+
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
+    
 }
 
 .header{
     width: 100%;
-    padding: 2rem ;
+    padding: 0 2rem ;
     display: flex;
     justify-content: flex-end;
     align-items: center;
 }
 
 .header .nav{
+    font-size: 1rem;
+    font-weight: 500;
+    background: transparent;
     width: 30%;
+    gap: .2rem;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
     position: relative;
-    margin-right: 3rem;
+    color: black;
+}
+
+.header .nav a{
+    margin-left: 1rem;
+}
+
+.header .nav .app{
+    font-size: 1.5rem;
+}
+
+.header .nav .user{
+    text-align: center;
+    color:white;
+    padding: 8px 16px;
+    border-radius: 50%;
+    background-color: blueviolet;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: .5rem;
 }
 
 .title-container{
+    margin-top: 2rem;
     display: flex;
+    font-size: 3rem;
 }
+
+.title-container h1:nth-child(1){
+    color: #4285F4;
+}
+
+.title-container h1:nth-child(2){
+    color: #EA4335;
+}
+
+.title-container h1:nth-child(3){
+   color: #FBBC04;
+}
+
+.title-container h1:nth-child(4){
+    color:#4285F4 ;
+}
+
+.title-container h1:nth-child(5){
+    color: #34A853;
+}
+
+.title-container h1:nth-child(6){
+    color: #EA4335 ;
+}
+
+.input-container{
+   text-align: center;
+    position: relative;
+    width: 100%;
+}
+
+.input-container input{
+    width: 50%;
+    border-radius: 30px;
+    padding: 15px;
+    border: unset;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
